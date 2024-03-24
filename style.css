@@ -1,0 +1,96 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face{
+  src: url(image/fonts/Inter-Bold.ttf);
+  font-family: inter-bold;
+}
+
+@font-face {
+  font-family:inter-regular ;
+  src: url(image/fonts/Inter-Regular.ttf);
+}
+
+@font-face {
+  font-family:inter-semibold ;
+  src: url(image/fonts/Inter-SemiBold.ttf);
+}
+
+@font-face {
+  font-family:inter-variablefont_slnt;
+  src: url(image/fonts/Inter-VariableFont_slnt\,wght.ttf);
+}
+
+.container{
+  width: 100%;
+  max-width: 290px;
+  margin: 0 auto;
+  background-color: hsl(0, 0%, 12%);
+ text-align: center;
+ border-radius: 10px;
+}
+
+.img{
+  align-content: center;
+}
+
+img{
+  border-radius: 100%;
+}
+
+.header{
+  text-align: center;
+  font-family: inter-bold;
+  color: #fff;
+  margin-top: 20px;
+}
+
+.sec{
+  text-align: center;
+  font-family: inter-bold;
+  color: hsl(75, 94%, 57%);
+  margin-top: 10px;
+}
+
+.para{
+  color: #fff;
+  font-family: inter-regular;
+  font-size: 14px;
+  margin-top: 20px;
+}
+
+.nav{
+  padding: 10px;
+}
+
+.nav li{
+  color: #fff;
+  list-style: none;
+  margin-top: 30px;
+  font-family: inter-semibold;
+  background-color: hsl(0, 0%, 20%);
+  padding: 10px 20px;
+  border-radius: 10px;
+  text-decoration: none;
+  
+}
+
+body{
+  background-color: hsl(0, 0%, 8%);
+}
+
+ .nav a:hover{
+  cursor: pointer;
+  background-color: hsl(75, 94%, 57%);
+}
+
+@media screen and (min-width:720px) {
+  .container{
+    width:100%;
+    max-width: 320px;
+    align-items: center;
+  }
+}
